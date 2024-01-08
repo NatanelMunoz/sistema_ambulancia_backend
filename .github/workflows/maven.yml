@@ -22,7 +22,7 @@ jobs:
     - name: Validación 
       run: mvn -B validate --file pom.xml
     - name: Compilación
-      run: mvn -B compilate --file pom.xml
+      run: mvn -B compile --file pom.xml
     - name: Prueba
       run: mvn -B test --file pom.xml
     - name: Empaquetamiento
