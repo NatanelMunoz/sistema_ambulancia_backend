@@ -16,6 +16,7 @@
 	<description>Proyecto de Verificacion y Validacion</description>
 	<properties>
 		<java.version>11</java.version>
+		<poi.version>5.2.3</poi.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -63,13 +64,13 @@
 		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi</artifactId>
-			<version>5.2.3</version>
+			<version>${poi.version}</version>
 		</dependency>
 		
 		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi-ooxml</artifactId>
-			<version>5.2.3</version>
+			<version>${poi.version}</version>
 		</dependency>
 
 	</dependencies>
