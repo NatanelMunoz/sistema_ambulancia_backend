@@ -4,7 +4,8 @@ services:
         container_name: conexion_ambulancia_v1
         build: .
         ports:
-            - "38000:9000"
+            - "39000:9000"
+            - "38900:8090"
         environment: 
             DATABASE_URL: "jdbc:postgresql://dpg-clmu0n38772c73e1mcr0-a.oregon-postgres.render.com/conexion_ambulancia_5fw6"
             DATABASE_USERNAME: "conexion_ambulancia_5fw6_user"
